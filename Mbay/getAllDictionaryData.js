@@ -15,7 +15,6 @@ const getSoundPath = (func) => {
   return string.substring(start, end);
 };
 
-const definition = definitions[3];
 
 const sampleSentenceShape = {
   mbay: '', // e.g. 'Ngōn-kó̰o̰-á àl̄ gìdɨ̀-á tɨ́.',
@@ -152,7 +151,7 @@ const getSynonymOriginLanguageAlternative = (definition) => {
     const startIndex = soloa.indexOf('[');
     const endIndex = soloa.indexOf(']') + 1
     // remove the [ and ]
-    synonym = soloa.substring(startIndex + 1, endIndex - 1).trim()
+    alternative = soloa.substring(startIndex + 1, endIndex - 1).trim()
     soloa = soloa.substring(0, startIndex) + soloa.substring(endIndex);
   }
   originLanguage = soloa.trim()
@@ -176,9 +175,9 @@ const getWord = (definition) => {
   return wordShapeCopy;
 };
 
-const word = getWord(definition);
+const words = [...definitions].map(definition => getWord(definition));
 
-console.log(word);
+console.log(words);
 
 // Expr: file:///Users/briankeegan/Documents/dictionary/soundDictionary/Mbay/oldwebsite/Mbay/Mbay3.htm
 // Idioms:(see file:///Users/briankeegan/Documents/dictionary/soundDictionary/Mbay/oldwebsite/Mbay/Mbay3.htm)

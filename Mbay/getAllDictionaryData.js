@@ -190,3 +190,7 @@ console.log(words);
 // (Syn: =dɔ̀-nàng,dà-nìng)
 // (Syn: ==dɔ̀-lūu)
 // Just see if they are there in original
+
+// Once solution, afterwards do an audit, and 
+// just fix those cases!
+// aka, mbay, no english or english no mbay!

@@ -25,7 +25,7 @@ const expressionShape = {
   sampleSentence: {...sampleSentenceShape}
 };
 
-const getSampleSentencesAndExpressions = (type, skipFirst) => {
+const getSampleSentencesAndExpressions = (type, skipNumber) => {
   let currentSibling = type.nextElementSibling;
   let sampleSentencesMbay = [];
   while (currentSibling !== null && currentSibling.className !== 'type') {
@@ -33,10 +33,10 @@ const getSampleSentencesAndExpressions = (type, skipFirst) => {
     currentSibling = currentSibling.nextElementSibling;
   }
 
-  // skipFirst: Edge case around "will (future marker, 1/2 pers. of à)."
+  // skipNumber: Edge case around "will (future marker, 1/2 pers. of à)."
   // because "à" has the class "sara-bagirmi-lang" its thinking its a sample sentence.
-  sampleSentencesMbay = skipFirst
-    ? sampleSentencesMbay.slice(1)
+  sampleSentencesMbay = skipNumber > 0
+    ? sampleSentencesMbay.slice(skipNumber)
     : sampleSentencesMbay;
 
   const sampleAndExpressions = sampleSentencesMbay.map((mbay) => {
@@ -117,14 +117,13 @@ const getDefinitions = (definition) => {
     //  and a mbay word in it
     const hasOpenParenthesisWithoutClosing =
       getHasOpenParenthesisWithoutClosing(typeShapeCopy.translation);
+    // figuring how many sentences to skip if above edge case takes place
+    let skipNumber = 0;
     if (hasOpenParenthesisWithoutClosing) {
 
       const opening = typeShapeCopy.translation;
 
       let translationArray = [opening]
-      // const mbayWord = type.nextSibling  && type.nextSibling.nextSibling ? type.nextSibling.nextSibling.innerHTML.trim() : '';
-      // const closingParenthesis = type.nextSibling  && type.nextSibling.nextSibling ?
-      //   type.nextSibling.nextSibling.nextSibling.data.trim(): ''
       // *** Another edge case *** if multiple sara-bagirmi-lang exist.
       // oh good (man, woman, etc.) (suffixed to stems containing
       // <span class="sara-bagirmi-lang">a</span> or
@@ -132,8 +131,10 @@ const getDefinitions = (definition) => {
 
       let followingSibling = type.nextSibling
       let [mbayWord, wordAfter] = getMbayWordAndWordAfter(followingSibling); 
+      // Probably not necessary, but was running into infinite loops, and i'm over it.
       let maxLoops = 0;
       if (mbayWord) {
+        skipNumber++
         translationArray = [...translationArray, mbayWord.innerHTML?.trim(), wordAfter?.data?.trim()]
         while(!wordAfter?.data?.includes(')') && maxLoops < 10) {
           followingSibling = wordAfter;
@@ -141,6 +142,7 @@ const getDefinitions = (definition) => {
           if (mbayWord) {
             translationArray = [...translationArray, mbayWord.innerHTML?.trim(), wordAfter?.data?.trim()]
           }
+          skipNumber++
           maxLoops++;
         }  
       }
@@ -150,7 +152,7 @@ const getDefinitions = (definition) => {
     }
     const [sampleSentences, expressions] = getSampleSentencesAndExpressions(
       type,
-      hasOpenParenthesisWithoutClosing
+      skipNumber
     );
     typeShapeCopy.sampleSentences = sampleSentences;
     typeShapeCopy.expressions = expressions;

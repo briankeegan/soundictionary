@@ -93,6 +93,14 @@ const getHasOpenParenthesisWithoutClosing = (wordString) => {
   return numberOfOpeningParenthesis > numberOfClosingParanthesis;
 };
 
+const getMbayWordAndWordAfter = (followingSibling) => {
+  const mbayWord = followingSibling?.nextSibling
+  const wordAfter = followingSibling?.nextSibling?.nextSibling
+  // .innerHTML.trim() : ''; for mbayWord
+  // .data.trim() for wordAfter
+  return [mbayWord, wordAfter];
+}
+
 const getDefinitions = (definition) => {
   const definitionsElements = definition.querySelectorAll('.type');
 
@@ -110,11 +118,35 @@ const getDefinitions = (definition) => {
     const hasOpenParenthesisWithoutClosing =
       getHasOpenParenthesisWithoutClosing(typeShapeCopy.translation);
     if (hasOpenParenthesisWithoutClosing) {
+
       const opening = typeShapeCopy.translation;
-      const mbayWord = type.nextSibling  && type.nextSibling.nextSibling ? type.nextSibling.nextSibling.innerHTML.trim() : '';
-      const closingParenthesis = type.nextSibling  && type.nextSibling.nextSibling ?
-        type.nextSibling.nextSibling.nextSibling.data.trim(): ''
-      typeShapeCopy.translation = `${opening} ${mbayWord} ${closingParenthesis}`;
+
+      let translationArray = [opening]
+      // const mbayWord = type.nextSibling  && type.nextSibling.nextSibling ? type.nextSibling.nextSibling.innerHTML.trim() : '';
+      // const closingParenthesis = type.nextSibling  && type.nextSibling.nextSibling ?
+      //   type.nextSibling.nextSibling.nextSibling.data.trim(): ''
+      // *** Another edge case *** if multiple sara-bagirmi-lang exist.
+      // oh good (man, woman, etc.) (suffixed to stems containing
+      // <span class="sara-bagirmi-lang">a</span> or
+      // <span class="sara-bagirmi-lang">a</span>).
+
+      let followingSibling = type.nextSibling
+      let [mbayWord, wordAfter] = getMbayWordAndWordAfter(followingSibling); 
+      let maxLoops = 0;
+      if (mbayWord) {
+        translationArray = [...translationArray, mbayWord.innerHTML?.trim(), wordAfter?.data?.trim()]
+        while(!wordAfter?.data?.includes(')') && maxLoops < 10) {
+          followingSibling = wordAfter;
+          [mbayWord, wordAfter] = getMbayWordAndWordAfter(followingSibling);  
+          if (mbayWord) {
+            translationArray = [...translationArray, mbayWord.innerHTML?.trim(), wordAfter?.data?.trim()]
+          }
+          maxLoops++;
+        }  
+      }
+      // This will create weirdness sometimes, but it is the best we can do at the moment
+      // AKA, extra spacing where there shoudln't be.
+      typeShapeCopy.translation = translationArray.join(' ');
     }
     const [sampleSentences, expressions] = getSampleSentencesAndExpressions(
       type,
@@ -192,5 +224,6 @@ const getWord = (definition) => {
 const words = [...definitions].map(definition => getWord(definition));
 
 console.log(words);
+// Just copy this whole file and paste into Chrome console
 copy(`const data = ${JSON.stringify(words, null, 2)}
 exports.data = data`);

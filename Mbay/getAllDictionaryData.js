@@ -192,19 +192,3 @@ const getWord = (definition) => {
 const words = [...definitions].map(definition => getWord(definition));
 
 console.log(words);
-
-// Expr: file:///Users/briankeegan/Documents/dictionary/soundDictionary/Mbay/oldwebsite/Mbay/Mbay3.htm
-// Idioms:(see file:///Users/briankeegan/Documents/dictionary/soundDictionary/Mbay/oldwebsite/Mbay/Mbay3.htm)
-
-// Issues:
-// <span class="sara-bagirmi-lang">  </span> 37
-// <span class="sara-bagirmi-lang"></span> 5
-
-// Look into 
-// (Syn: =dɔ̀-nàng,dà-nìng)
-// (Syn: ==dɔ̀-lūu)
-// Just see if they are there in original
-
-// Once solution, afterwards do an audit, and 
-// just fix those cases!
-// aka, mbay, no english or english no mbay!

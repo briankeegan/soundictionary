@@ -1,3 +1,5 @@
+const fs = require('fs')
+const path = require('path');
 const { data } = require('./firstResults')
 
 const getSampleSentenceHasMissingInformation = (sampleSentence) => {
@@ -24,11 +26,16 @@ const findMissingData = (definition) => {
     const sampleSentences = definition.sampleSentences
     const missingSampleSentences = sampleSentences.filter(getSampleSentenceHasMissingInformation)
     if (missingExpressions.length > 0 || missingSampleSentences.length > 0) {
-    return {
-            definition,
-            missingExpressions,
-            missingSampleSentences,
-        };
+        const missingData = {
+            definitionName: definition.translation,
+        }
+        if (missingExpressions.length > 0) {
+            missingData.missingExpressions = missingExpressions
+        }
+        if (missingSampleSentences.length > 0) {
+            missingData.missingSampleSentences = missingSampleSentences
+        }
+    return missingData;
     }
     return null
 }
@@ -38,10 +45,20 @@ const results = data.reduce((results, currentWord, index) => {
     if (missingData.length > 0) {
         results.push({
             word: currentWord.word,
+            index,
             missingData,
         })
     }
     return results
 }, [])
-console.log(JSON.stringify(results, null, 2))
+
+var resultsPath = path.join(__dirname, 'missingData.json');
+
+fs.writeFile(resultsPath, results, err => {
+  if (err) {
+    console.error(err)
+    return
+  }
+  console.log('file written successfully')
+})
 

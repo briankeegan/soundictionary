@@ -88,10 +88,9 @@ typesShape = {
 };
 
 const getHasOpenParenthesisWithoutClosing = (wordString) => {
-  // const numberOfOpeningParenthesis = wordString.split('(').length - 1;
-  // const numberOfClosingParanthesis = wordString.split(')').length - 1;
-  // return numberOfOpeningParenthesis > numberOfClosingParanthesis;
-  return wordString.includes('(') && !wordString.includes(')');
+  const numberOfOpeningParenthesis = wordString.split('(').length - 1;
+  const numberOfClosingParanthesis = wordString.split(')').length - 1;
+  return numberOfOpeningParenthesis > numberOfClosingParanthesis;
 };
 
 const getDefinitions = (definition) => {

@@ -1,8 +1,8 @@
 {
-  "count": 55,
+  "count": 54,
   "results": [
     {
-      "word": "àbàsúl ",
+      "word": "àbàsúl",
       "index": 8,
       "missingData": [
         {
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "word": "àbḭ̀yō̰o̰,àbḭ̀yó̰ò̰ ",
+      "word": "àbḭ̀yō̰o̰,àbḭ̀yó̰ò̰",
       "index": 9,
       "missingData": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "word": "àkúu ",
+      "word": "àkúu",
       "index": 24,
       "missingData": [
         {
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "word": "bàng ",
+      "word": "bàng",
       "index": 164,
       "missingData": [
         {
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "word": "bárà ",
+      "word": "bárà",
       "index": 201,
       "missingData": [
         {
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "word": "hɔ̀ ",
+      "word": "hɔ̀",
       "index": 1527,
       "missingData": [
         {
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "word": "kàm-ndàa ",
+      "word": "kàm-ndàa",
       "index": 1830,
       "missingData": [
         {
@@ -486,7 +486,7 @@
       "index": 3706,
       "missingData": [
         {
-          "definitionName": "day, 24 hour period (does not take locative -ɔ́ ; see also",
+          "definitionName": "day, 24 hour period (does not take locative -ɔ́ ; see also -ɔ́ 'night').",
           "missingExpressions": [
             {
               "expressionMbay": "ndɔ̄ɔ̄ màdɨ̄-gɨ̄ tɨ́ (=ndɔ̄ɔ̄ màdɨ̄ tɨ́)",
@@ -527,7 +527,7 @@
       ]
     },
     {
-      "word": "ngákɨ̀ ",
+      "word": "ngákɨ̀",
       "index": 3792,
       "missingData": [
         {
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "word": "ngà̰ā̰ ",
+      "word": "ngà̰ā̰",
       "index": 3836,
       "missingData": [
         {
@@ -563,7 +563,7 @@
       ]
     },
     {
-      "word": "ngè ",
+      "word": "ngè",
       "index": 3840,
       "missingData": [
         {
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "word": "ngè-ndɔ̀ɔ̄-kàsɨ̀ ",
+      "word": "ngè-ndɔ̀ɔ̄-kàsɨ̀",
       "index": 3898,
       "missingData": [
         {
@@ -595,7 +595,7 @@
       ]
     },
     {
-      "word": "ngīr-ngē-tēgɨ̄ ",
+      "word": "ngīr-ngē-tēgɨ̄",
       "index": 3943,
       "missingData": [
         {
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "word": "ngɨ̄rā ",
+      "word": "ngɨ̄rā",
       "index": 3958,
       "missingData": [
         {
@@ -663,7 +663,7 @@
       ]
     },
     {
-      "word": "ngɔ̀r-làā ",
+      "word": "ngɔ̀r-làā",
       "index": 4051,
       "missingData": [
         {
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "word": "páàngū ",
+      "word": "páàngū",
       "index": 4260,
       "missingData": [
         {
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "word": "sàmbé ",
+      "word": "sàmbé",
       "index": 4689,
       "missingData": [
         {
@@ -763,7 +763,7 @@
       ]
     },
     {
-      "word": "sɨ́ndá ",
+      "word": "sɨ́ndá",
       "index": 4853,
       "missingData": [
         {
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "word": "tà ",
+      "word": "tà",
       "index": 4978,
       "missingData": [
         {
@@ -841,22 +841,6 @@
               "mbay": "",
               "english": "The fish got out of the net.",
               "wordSoundPath": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "word": "tōm",
-      "index": 5206,
-      "missingData": [
-        {
-          "definitionName": "greet (followed by kɨ̀ dèē '",
-          "missingSampleSentences": [
-            {
-              "mbay": " s.o.'). m̄-tōm sì-á nà̰ ndìgɨ̀-m̄ àĺ. I greeted him but he didn't answer me.",
-              "english": "",
-              "wordSoundPath": "Sound/MbRCJ_109_48.mp3"
             }
           ]
         }

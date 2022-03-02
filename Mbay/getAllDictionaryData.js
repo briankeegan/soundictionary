@@ -44,7 +44,7 @@ const getSampleSentencesAndExpressions = (type, skipFirst) => {
       return null
     }
     const sampleCopy = { ...sampleSentenceShape };
-    sampleCopy.mbay = mbay.innerText;
+    sampleCopy.mbay = mbay.innerText.trim();
     sampleCopy.english = mbay.nextSibling ? mbay.nextSibling.data.trim() : '';
     const wordSound = mbay.querySelector('.play-sound');
     if (wordSound) {
@@ -142,7 +142,7 @@ const wordShape = {
 const getSynonymOriginLanguageAlternative = (definition) => {
   // sola => synonymOriginLanguageOrAlternative
   let soloa = definition.querySelector('.word').lastChild
-  soloa = soloa && soloa.data
+  soloa = soloa?.data?.trim()
   if (!soloa) {
     return ''
   }
@@ -175,7 +175,7 @@ const getSynonymOriginLanguageAlternative = (definition) => {
 const getWord = (definition) => {
   const wordShapeCopy = { ...wordShape };
   const word = definition.querySelector('.word .w.sara-bagirmi-lang');
-  wordShapeCopy.word = word.innerText;
+  wordShapeCopy.word = word.innerText.trim();
   const wordSound = word.querySelector('.play-sound');
   if (wordSound) {
     wordShapeCopy.wordSoundPath = getSoundPath(wordSound.onclick);

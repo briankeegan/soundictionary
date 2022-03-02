@@ -1,7 +1,5 @@
 const definitions = document.querySelectorAll('.def');
 
-// TODO add a loop
-
 const getSoundPath = (func) => {
   // input:
   // `ƒ onclick(event) {
@@ -90,6 +88,9 @@ typesShape = {
 };
 
 const getHasOpenParenthesisWithoutClosing = (wordString) => {
+  // const numberOfOpeningParenthesis = wordString.split('(').length - 1;
+  // const numberOfClosingParanthesis = wordString.split(')').length - 1;
+  // return numberOfOpeningParenthesis > numberOfClosingParanthesis;
   return wordString.includes('(') && !wordString.includes(')');
 };
 
@@ -192,3 +193,5 @@ const getWord = (definition) => {
 const words = [...definitions].map(definition => getWord(definition));
 
 console.log(words);
+copy(`const data = ${JSON.stringify(words, null, 2)}
+exports.data = data`);

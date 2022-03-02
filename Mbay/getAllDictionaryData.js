@@ -42,9 +42,12 @@ const getSampleSentencesAndExpressions = (type, skipFirst) => {
     : sampleSentencesMbay;
 
   const sampleAndExpressions = sampleSentencesMbay.map((mbay) => {
+    if (!mbay) {
+      return null
+    }
     const sampleCopy = { ...sampleSentenceShape };
     sampleCopy.mbay = mbay.innerText;
-    sampleCopy.english = mbay.nextSibling.data.trim();
+    sampleCopy.english = mbay.nextSibling ? mbay.nextSibling.data.trim() : '';
     const wordSound = mbay.querySelector('.play-sound');
     if (wordSound) {
       sampleCopy.wordSoundPath = getSoundPath(wordSound.onclick);
@@ -86,6 +89,9 @@ const getDefinitions = (definition) => {
   const definitionsElements = definition.querySelectorAll('.type');
 
   return [...definitionsElements].map((type) => {
+    if (!type) {
+      return null
+    } 
     const typeShapeCopy = { ...typesShape };
     typeShapeCopy.type = type.innerText.trim();
     typeShapeCopy.translation = type.nextSibling.data.trim();
@@ -97,9 +103,9 @@ const getDefinitions = (definition) => {
       getHasOpenParenthesisWithoutClosing(typeShapeCopy.translation);
     if (hasOpenParenthesisWithoutClosing) {
       const opening = typeShapeCopy.translation;
-      const mbayWord = type.nextSibling.nextSibling.innerHTML.trim();
-      const closingParenthesis =
-        type.nextSibling.nextSibling.nextSibling.data.trim();
+      const mbayWord = type.nextSibling  && type.nextSibling.nextSibling ? type.nextSibling.nextSibling.innerHTML.trim() : '';
+      const closingParenthesis = type.nextSibling  && type.nextSibling.nextSibling ?
+        type.nextSibling.nextSibling.nextSibling.data.trim(): ''
       typeShapeCopy.translation = `${opening} ${mbayWord} ${closingParenthesis}`;
     }
     const [sampleSentences, expressions] = getSampleSentencesAndExpressions(

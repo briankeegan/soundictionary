@@ -1,0 +1,985 @@
+  "count": 55,
+  "results": [
+    {
+      "word": "àbàsúl ",
+      "index": 8,
+      "missingData": [
+        {
+          "definitionName": "skunk, winning in cards so that opponent has no points.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "I skunked you, since you didn't take a single trick.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àbḭ̀yō̰o̰,àbḭ̀yó̰ò̰ ",
+      "index": 9,
+      "missingData": [
+        {
+          "definitionName": "airplane.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "My son came by airplane and came and met me here at home.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àgɨ̀",
+      "index": 18,
+      "missingData": [
+        {
+          "definitionName": "crawl.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Snakes crawl on the ground.",
+              "wordSoundPath": ""
+            }
+          ]
+        },
+        {
+          "definitionName": "creep up to, stalk.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The lion crept up to the gazelle to catch it.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àgɨ̄",
+      "index": 19,
+      "missingData": [
+        {
+          "definitionName": "increase in volume (grain).",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The beans I was cooking got bigger and filled the pot.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àkúu ",
+      "index": 24,
+      "missingData": [
+        {
+          "definitionName": "parrot.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The parrot is a bird which imitates people's voices.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àsɨ̀-tà-tɨ́",
+      "index": 62,
+      "missingData": [
+        {
+          "definitionName": "considerably.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Your work is considerably difficult.",
+              "wordSoundPath": ""
+            }
+          ]
+        },
+        {
+          "definitionName": "seriously.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Her child is seriously ill.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àtɨ̀",
+      "index": 66,
+      "missingData": [
+        {
+          "definitionName": "be sharp, be pointed.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "mbī [dèē] àtɨ̀",
+              "expressionEnglish": "-have sharp hearing",
+              "sampleSentence": {
+                "mbay": "",
+                "english": "A blind person has sharp hearing.",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "àӯ",
+      "index": 71,
+      "missingData": [
+        {
+          "definitionName": "be/become clear.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "wúl̄ kɨ́ àӯ",
+              "expressionEnglish": "-partially dried peanuts used in making",
+              "sampleSentence": {
+                "mbay": "màndàwá",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bàdɨ̀",
+      "index": 108,
+      "missingData": [
+        {
+          "definitionName": "jerkily (spinning top).",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The top spins jerkily.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bàng ",
+      "index": 164,
+      "missingData": [
+        {
+          "definitionName": "way, route.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The child who doesn't listen will get lost along the way.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bárà ",
+      "index": 201,
+      "missingData": [
+        {
+          "definitionName": "out, outside.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "tèē bárà",
+              "expressionEnglish": "-be out of the game of",
+              "sampleSentence": {
+                "mbay": "sörö",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "bèr",
+      "index": 269,
+      "missingData": [
+        {
+          "definitionName": "type of millet, which like",
+          "missingSampleSentences": [
+            {
+              "mbay": "bèr/gîjÆ-dìngàm",
+              "english": "",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "dā̰a̰",
+      "index": 822,
+      "missingData": [
+        {
+          "definitionName": "body.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "dā̰a̰ màn̄g",
+              "expressionEnglish": "-beef",
+              "sampleSentence": {
+                "mbay": "M-āw súkɨ̄-ú m̄-ndūgō dā̰a̰ màn̄g m̄-ɗèē-ň ɓēe-é ɓó-làā.",
+                "english": "",
+                "wordSoundPath": "Sound/EXSS06611.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "dèē",
+      "index": 828,
+      "missingData": [
+        {
+          "definitionName": "person.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "A human is a person who will die.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "dòo",
+      "index": 914,
+      "missingData": [
+        {
+          "definitionName": "hurt, injured.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "My right hand is hurt so I eat with my left hand.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "gà̰a̰",
+      "index": 1166,
+      "missingData": [
+        {
+          "definitionName": "round part of.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "gà̰a̰-kújɨ́",
+              "expressionEnglish": "-cone-shaped top of roof, right below",
+              "sampleSentence": {
+                "mbay": "bÆlà-kújÉ",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "gōtɨ́",
+      "index": 1317,
+      "missingData": [
+        {
+          "definitionName": "correct.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "You do what's not right.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "gòtóo",
+      "index": 1321,
+      "missingData": [
+        {
+          "definitionName": "not be any.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "m̄-gòtóo tɨ́.",
+              "expressionEnglish": "-I want nothing to do with it",
+              "sampleSentence": {
+                "mbay": "Yá̰a̰ lò-sɨ́ ń ɗà ī-ɗāa-n̄-ň nò m̄-gòtóo tɨ́.",
+                "english": "",
+                "wordSoundPath": "Sound/Mba2257Exp01SS.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "hɔ̀ ",
+      "index": 1527,
+      "missingData": [
+        {
+          "definitionName": "arrest. put in prison.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "gír [dèē] hɔ̀ nàng bèŕ",
+              "expressionEnglish": "-[s.o.] to stay put, not move around",
+              "sampleSentence": {
+                "mbay": "Kété dá m-ā m-āw mbāa ngá̰y dò̰ó̰ dò̰ó̰ nà tà-jī-gɨ̄-nèē dá gír-ḿ hɔ̀ nàng bèŕ tā.",
+                "english": "",
+                "wordSoundPath": "Sound/Mba681Exp02SS.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "kàm-ndàa ",
+      "index": 1830,
+      "missingData": [
+        {
+          "definitionName": "kindness, goodness, generosity; good deeds.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ngè kàm-ndàa",
+              "expressionEnglish": "-good-hearted person",
+              "sampleSentence": {
+                "mbay": "",
+                "english": "Good-hearted people don't long resist death.",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "kɔ̀w-ndīi",
+      "index": 2626,
+      "missingData": [
+        {
+          "definitionName": "electricity left in ground from lightning strike.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "When lightning strikes, it leaves electricity in the ground. And if somebody touches that spot it will burst out and its fire will burn him.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "kùu",
+      "index": 2640,
+      "missingData": [
+        {
+          "definitionName": "forest, jungle.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Lions roar in the middle of forests.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "kùm-kìl",
+      "index": 2694,
+      "missingData": [
+        {
+          "definitionName": "faintness, dizziness.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "I'm so hungry I feel faint.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "mósɨ́",
+      "index": 3155,
+      "missingData": [
+        {
+          "definitionName": "blood.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "jà mósɨ́",
+              "expressionEnglish": "-kill an animal (for sacrifice)",
+              "sampleSentence": {
+                "mbay": "",
+                "english": "I killed an animal as a sacrifice for dead ancestors.",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ndì",
+      "index": 3629,
+      "missingData": [
+        {
+          "definitionName": "sitting; staying, remaining; living; being.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ndì nò",
+              "expressionEnglish": "-there is/are {follows noun phrase}",
+              "sampleSentence": {
+                "mbay": "?? this recording",
+                "english": "",
+                "wordSoundPath": "Sound/Mba1567Exp07SS.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ndór̄",
+      "index": 3697,
+      "missingData": [
+        {
+          "definitionName": "make thin and stretched.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ndór̄ jī-ǹ",
+              "expressionEnglish": "-to amuse oneself doing s.t. with hands {e.g. cards, writing, etc.)",
+              "sampleSentence": {
+                "mbay": "ɗāa kɨ̀là sḭ́ḭ ndór̄-ň jī-ǹ kɨ̀ nām-ǹ-gɨ̄. ?? sens",
+                "english": "",
+                "wordSoundPath": "Sound/Mba1609Exp01SS.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ndɔ̄ɔ̄",
+      "index": 3706,
+      "missingData": [
+        {
+          "definitionName": "day, 24 hour period (does not take locative -ɔ́ ; see also",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ndɔ̄ɔ̄ màdɨ̄-gɨ̄ tɨ́ (=ndɔ̄ɔ̄ màdɨ̄ tɨ́)",
+              "expressionEnglish": "-on a certain day",
+              "sampleSentence": {
+                "mbay": "??m̄-tɔ̀ӯ nà̰?? ndɔ̄ɔ̄ màdɨ̄-gɨ̄ tɨ́ lā m-ōo-ň?? yé.",
+                "english": "",
+                "wordSoundPath": "Sound/Mba1619Exp02SS.mp3"
+              }
+            },
+            {
+              "expressionMbay": "ndɔ̄ɔ kàsɨ̀ lò [dèē]",
+              "expressionEnglish": "-[s.o.'s] last day, the day of [s.o.'s] death",
+              "sampleSentence": {
+                "mbay": "ì ndɔ̄ɔ kàsɨ̀ lò kó̰o̰-ḿ lā ?? àsɨ̀ yé. Meaning??",
+                "english": "",
+                "wordSoundPath": "Sound/Mba1619Exp06SS.mp3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ndɔ̄ɔ̄",
+      "index": 3707,
+      "missingData": [
+        {
+          "definitionName": "problems, worries, trouble.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "I don't want you to make trouble for me.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngákɨ̀ ",
+      "index": 3792,
+      "missingData": [
+        {
+          "definitionName": "with difficulty, with the words not coming.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "He speaks with a bad stutter.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngà̰ā̰ ",
+      "index": 3836,
+      "missingData": [
+        {
+          "definitionName": "away (in expression ɔ̀r̄ à 'send away').",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ɔ̀r̄ [dèē] ngà̰ā̰ [yá̰a̰]",
+              "expressionEnglish": "-make a big deal about [s.t.] to [s.o.], lord over [s.o.] about [s.t.]",
+              "sampleSentence": {
+                "mbay": "",
+                "english": "He's making a big deal about his 'boule' that I ate yesterday.",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngè ",
+      "index": 3840,
+      "missingData": [
+        {
+          "definitionName": "person who does/did [action]; who.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "They didn't know who did it.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngè-ndɔ̀ɔ̄-kàsɨ̀ ",
+      "index": 3898,
+      "missingData": [
+        {
+          "definitionName": "workers who work in s.o.'s field and are paid for it with drink.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The women ululated to encourage the workers who were working for beer.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngīr-ngē-tēgɨ̄ ",
+      "index": 3943,
+      "missingData": [
+        {
+          "definitionName": "type of small insect.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "____ is an insect like the ^^ ant, but it's a little bigger.  It digs a hole in the sand and then flicks the sand out of its hole.  Its sting hurts a lot.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngìrìng",
+      "index": 3945,
+      "missingData": [
+        {
+          "definitionName": "be big and strong.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Your so big and strong and you're hitting a child?",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngìsē",
+      "index": 3947,
+      "missingData": [
+        {
+          "definitionName": "move, step.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "ngìsē kɨ̄ kété",
+              "expressionEnglish": "-advance, go on to the next level",
+              "sampleSentence": {
+                "mbay": "",
+                "english": "This year I went on to the next class.",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngɨ̄rā ",
+      "index": 3958,
+      "missingData": [
+        {
+          "definitionName": "hide, skin.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "We made a drum with the goatskin.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ngɔ̀r-làā ",
+      "index": 4051,
+      "missingData": [
+        {
+          "definitionName": "recently, nowadays, now.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Nowadays he doesn't go to the market very often.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "-óo",
+      "index": 4195,
+      "missingData": [
+        {
+          "definitionName": "oh good (woman, child, etc.) (suffixed to stems containing",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Oh child!",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "páàngū ",
+      "index": 4260,
+      "missingData": [
+        {
+          "definitionName": "male underpants {tied on sides}.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Tied underpants are the underwear for black people.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "rīyā",
+      "index": 4474,
+      "missingData": [
+        {
+          "definitionName": "be torn, ripped.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "My shirt is torn.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ɗàń",
+      "index": 4554,
+      "missingData": [
+        {
+          "definitionName": "here; there.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "You over there, come here.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sàmbé ",
+      "index": 4689,
+      "missingData": [
+        {
+          "definitionName": "enamel plate or bowl.",
+          "missingExpressions": [
+            {
+              "expressionMbay": "sàmbé-dòjɨ̀ (=dòjɨ̀)",
+              "expressionEnglish": "-type of basin, smaller than",
+              "sampleSentence": {
+                "mbay": "sàmbÉ-bèrléè",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "sɨ́ndá ",
+      "index": 4853,
+      "missingData": [
+        {
+          "definitionName": "bicycle.",
+          "missingSampleSentences": [
+            {
+              "mbay": "átÆbàr/^MB^-kägæ-rïmbë",
+              "english": "",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "súu",
+      "index": 4917,
+      "missingData": [
+        {
+          "definitionName": "story, tale.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "It's just a story, right?",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "tà ",
+      "index": 4978,
+      "missingData": [
+        {
+          "definitionName": "beginning of [time period].",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "at the beginning of the dry season/rainy season/cold season/hot weather",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "tàw̄",
+      "index": 5069,
+      "missingData": [
+        {
+          "definitionName": "hairless caterpillar (see also njúwá ).",
+          "missingExpressions": [
+            {
+              "expressionMbay": "tàw̄-ngā-tàndɨ̀r",
+              "expressionEnglish": "-small caterpillar found on plant named",
+              "sampleSentence": {
+                "mbay": "kÉ-ngä-tàndÆr",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "téē",
+      "index": 5083,
+      "missingData": [
+        {
+          "definitionName": "come out in large groups (freq. of tèē ).",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The fish got out of the net.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "tōm",
+      "index": 5206,
+      "missingData": [
+        {
+          "definitionName": "greet (followed by kɨ̀ dèē '",
+          "missingSampleSentences": [
+            {
+              "mbay": " s.o.'). m̄-tōm sì-á nà̰ ndìgɨ̀-m̄ àĺ. I greeted him but he didn't answer me.",
+              "english": "",
+              "wordSoundPath": "Sound/MbRCJ_109_48.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "tóm",
+      "index": 5207,
+      "missingData": [
+        {
+          "definitionName": "parasitic plant which grows on trunk of certain trees [Tapinanthus sp.].",
+          "missingExpressions": [
+            {
+              "expressionMbay": "tóm-yā̰ŕ",
+              "expressionEnglish": "-parasitic plant found on the vine called",
+              "sampleSentence": {
+                "mbay": "yºr",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wāa",
+      "index": 5340,
+      "missingData": [
+        {
+          "definitionName": "sick person cared for by.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "sick person whom we are taking care of",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wákɨ́sɨ̀",
+      "index": 5356,
+      "missingData": [
+        {
+          "definitionName": "imported cloth for wrap-around skirts.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "The price of foreign cloth is too much for me.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wàsɨ̄",
+      "index": 5381,
+      "missingData": [
+        {
+          "definitionName": "pumpkin [Cucurbita pepa].",
+          "missingExpressions": [
+            {
+              "expressionMbay": "wàsɨ̄-ndán̄g",
+              "expressionEnglish": "-type of spotted squash, similar in shape to",
+              "sampleSentence": {
+                "mbay": "gà£",
+                "english": "",
+                "wordSoundPath": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wɔ̀kɨ̀sɨ̀",
+      "index": 5452,
+      "missingData": [
+        {
+          "definitionName": "ugly and very (fat).",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Your sides stick out from all the fat.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "wúrɨ́",
+      "index": 5477,
+      "missingData": [
+        {
+          "definitionName": "whiningly (cry).",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Your child is crying with a whiny voice.",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "yé",
+      "index": 5557,
+      "missingData": [
+        {
+          "definitionName": "this,that {indicates surprise or strong emphasis}.",
+          "missingSampleSentences": [
+            {
+              "mbay": "",
+              "english": "Yesterday a thief robbed us again!",
+              "wordSoundPath": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

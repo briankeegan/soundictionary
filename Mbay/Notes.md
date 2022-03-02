@@ -25,5 +25,11 @@ Theres multiple equals signs. I think its a mistake, but its definitely in the o
 
  ## Next steps
 
- - Run Manually go through all 55, and 
+- Fixing mistakes
+    - Update the index.html file, with the fixes, based on `missingData.json`.
+    - Re-run `getAllDictionaryData` and `findMissingData`.
+    - Repeat process
+
+- Auditing work
+  - Just double checking results as this is a lot of data.
 

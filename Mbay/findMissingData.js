@@ -54,7 +54,12 @@ const results = data.reduce((results, currentWord, index) => {
 
 var resultsPath = path.join(__dirname, 'missingData.json');
 
-fs.writeFile(resultsPath, results, err => {
+const output = {
+    count: results.length,
+    results,
+}
+
+fs.writeFile(resultsPath, JSON.stringify(output, null, 2), err => {
   if (err) {
     console.error(err)
     return

@@ -68,6 +68,14 @@ const getSampleSentencesAndExpressions = (type, skipFirst) => {
       expressionCopy.expressionMbay = expression.mbay;
       expressionCopy.expressionEnglish = expression.english;
       expressionCopy.sampleSentence = expressionSampleSentence;
+      // Edge case, no sample sentence with it.
+      if (expressionSampleSentence && expressionSampleSentence.mbay.includes('Expr')) {
+        expressionCopy.sampleSentence = null;
+        // go back one... for iteration reasons :)
+        i--
+      } else {
+        expressionCopy.sampleSentence = expressionSampleSentence;
+      }
       expressions.push(expressionCopy);
     } else {
       sampleSentences.push(currentSampleOrExpression);
